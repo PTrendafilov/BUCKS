@@ -1,0 +1,172 @@
+{
+  "IBM": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "MSFT": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "GOOGL": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "NVDA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "IONQ": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "RGTI": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "QBTS": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "BAESY": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "RHM.DE": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "LDO.MI": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "HO.PA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "SAAB-B.ST": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AM.PA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AIR.PA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AMD": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "META": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AMZN": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "PLTR": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AVGO": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "SNOW": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "SMCI": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "INTC": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "BABA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "BIDU": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "TCEHY": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "IFLYTEK": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "0020.HK": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "ASML": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "SAP": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "ARM": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "STM": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "DARK": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "AAPL": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  },
+  "TSLA": {
+    "direction": "neutral",
+    "confidence": 0.5,
+    "reason": "No relevant news to indicate movement."
+  }
+}
