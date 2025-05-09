@@ -1,0 +1,194 @@
+/* =====================
+   Global brand colours
+========================*/
+:root {
+    --brand-green: #2ce97b;          /* rgb(44, 233, 123)  */
+    --brand-green-dark: #25c26a;    /* slightly darker for hover/active */
+    --brand-red:   #d4151c;          /* rgb(212, 21, 28)   */
+    --brand-red-dark: #b01017;      /* slightly darker for hover/active */
+}
+
+/* -------------------------------------
+   1. General tweaks (links, scrollbars)
+----------------------------------------*/
+a,
+a:hover,
+a:active,
+a:focus {
+    color: var(--brand-green);
+}
+
+.menu-ui-design::-webkit-scrollbar-thumb {
+    background-color: var(--brand-green);
+}
+
+/* -------------------------------------
+   2. Header / Navbar / Logo
+----------------------------------------*/
+nav.navbar.bootsnav.no-background {
+    background-color: #535353; /* keep dark background */
+    border: none;
+}
+
+nav.navbar.bootsnav {
+    background-color: #535353;
+    border-bottom: transparent;
+    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+}
+
+/* navbar brand logo – ensure visible */
+.navbar-header a.navbar-brand {
+    padding: 10px 0; /* tighter padding so the image sits nicely */
+}
+
+
+/* nav links */
+nav.navbar.bootsnav ul.nav>li>a {
+    color: #ffffff; /* default white on dark bg */
+    transition: 0.3s linear;
+}
+
+nav.navbar.bootsnav ul.nav>li>a:hover,
+nav.navbar.bootsnav ul.nav>li>a:focus,
+nav.navbar.bootsnav ul.nav>li.active>a {
+    color: var(--brand-green);
+}
+
+/* sticky variant */
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a {
+    color: #6a708e;
+}
+
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:hover,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:focus,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li.active>a {
+    color: var(--brand-red);
+}
+
+/* mobile toggle button */
+nav.navbar.bootsnav .navbar-toggle {
+    border: 1px solid var(--brand-green);
+}
+
+nav.navbar.bootsnav .navbar-toggle i {
+    color: var(--brand-green);
+}
+
+/* -------------------------------------
+   3. Buttons & Call-to-actions
+----------------------------------------*/
+.header-text a {
+    background: var(--brand-red);
+    border: 1px solid var(--brand-red);
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    transition: 0.3s linear;
+}
+
+.header-text a:hover {
+    background: var(--brand-red-dark);
+    border-color: var(--brand-red-dark);
+    box-shadow: 0 5px 20px rgba(0,0,0,.35);
+}
+
+/* progress bars */
+.progress-bar {
+    background: var(--brand-green);
+}
+
+.tooltip>.tooltip-inner {
+    color: var(--brand-green);
+}
+
+.single-progress-txt h3 {
+    color: var(--brand-red);
+}
+
+/* -------------------------------------
+   4. Profile overlay gradient
+----------------------------------------*/
+.single-profile-overlay {
+    /* left-to-right gradient brand-red ➜ brand-green */
+    background: linear-gradient(90deg, var(--brand-red) 0%, var(--brand-green) 100%);
+}
+
+/* -------------------------------------
+   5. Scroll-to-top circle
+----------------------------------------*/
+#scroll-Top .return-to-top {
+    background: var(--brand-green);
+    border: 1px solid var(--brand-green);
+    color: #fff;
+}
+
+#scroll-Top .return-to-top:hover {
+    background: #fff;
+    color: var(--brand-green);
+    border-color: var(--brand-green);
+}
+
+/* -------------------------------------
+   6. Forms & contact button
+----------------------------------------*/
+.contact-form .single-contact-btn {
+    background: var(--brand-green);
+    border: 1px solid var(--brand-green);
+}
+
+.single-contact-btn:hover {
+    background: var(--brand-green-dark);
+    border-color: var(--brand-green-dark);
+}
+
+/* -------------------------------------
+   7. Misc element accent swaps
+----------------------------------------*/
+.timeline-content span>i,
+.experience-time span>i {
+    color: var(--brand-red);
+}
+
+.timeline-horizontal-border i {
+    color: var(--brand-red);
+}
+
+
+
+/* isotope / portfolio hover overlay remains dark-blue for readability */
+
+/* Done – enjoy your new colour scheme! */
+
+/* =============================
+   Logo hover + fixed dimensions
+============================= */
+.navbar-header a.navbar-brand img{
+    width: 80px;          /* always 100 × 100 px */
+    height: 80px;
+    position: static!important;
+
+}
+a.navbar-brand{
+    position: static!important;
+}
+/* ===================================
+   Navbar-link colours (all situations)
+   inactive  ➜ white
+   hover/active ➜ brand-green
+=================================== */
+nav.navbar.bootsnav ul.nav>li>a{
+    color:#ffffff;                     /* default/inactive */
+}
+nav.navbar.bootsnav ul.nav>li>a:hover,
+nav.navbar.bootsnav ul.nav>li>a:focus,
+nav.navbar.bootsnav ul.nav>li.active>a{
+    color:var(--brand-green);          /* green on hover/active */
+}
+
+/* force the same colours when the bar turns sticky */
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a{
+    color:#ffffff;
+}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:hover,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:focus,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li.active>a{
+    color:var(--brand-green);
+}
